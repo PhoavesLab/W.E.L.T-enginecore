@@ -1,0 +1,150 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\engine">
+      <UniqueIdentifier>{1be2d174-4efc-42e9-b062-7e3c783ff781}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\engine\core">
+      <UniqueIdentifier>{d5d954d3-b002-4408-9cdd-99e832f26f99}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\engine">
+      <UniqueIdentifier>{eb42a6b0-8ea7-4aa8-add5-105b18e31b74}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\engine\core">
+      <UniqueIdentifier>{ea0beccc-6ca0-48f1-8f26-1c0c4dc355cd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\engine\debug">
+      <UniqueIdentifier>{03261056-d1f4-4717-bd06-69994ce324b5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\engine\debug">
+      <UniqueIdentifier>{0c10d3bb-8180-450b-96a4-96129c869421}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\engine\renderer">
+      <UniqueIdentifier>{df7575b3-c308-4416-b6ac-e3df1fe5d2d0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\engine\renderer">
+      <UniqueIdentifier>{45f52858-9aec-4da0-969b-aaa25a98cdcc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\engine\voxel">
+      <UniqueIdentifier>{ecb0a8ef-19bf-4563-94f9-8ab83c08ac86}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\engine\input">
+      <UniqueIdentifier>{a39cb568-9dab-422b-911b-d6480c6bc9d0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\engine\input">
+      <UniqueIdentifier>{3184eb99-8743-44bd-a9bc-1a495086309e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\engine\voxel">
+      <UniqueIdentifier>{30a860e3-7c5e-45e9-a90d-a64b66d49a8f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\game">
+      <UniqueIdentifier>{e97206cc-057b-4593-a0e7-df6c2d5c342d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\game">
+      <UniqueIdentifier>{50d0d0e8-cb60-49bc-91ab-ff7b216b3398}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="engine_core.cpp">
+      <Filter>Source Files\engine\core</Filter>
+    </ClCompile>
+    <ClCompile Include="debug_system.h">
+      <Filter>Header Files\engine\debug</Filter>
+    </ClCompile>
+    <ClCompile Include="debug_system.cpp">
+      <Filter>Source Files\engine\debug</Filter>
+    </ClCompile>
+    <ClCompile Include="camera.cpp">
+      <Filter>Source Files\engine\renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="mesh.cpp">
+      <Filter>Source Files\engine\renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="renderer.cpp">
+      <Filter>Source Files\engine\renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="shader.cpp">
+      <Filter>Source Files\engine\renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="voxel_chunk.cpp">
+      <Filter>Source Files\engine\voxel</Filter>
+    </ClCompile>
+    <ClCompile Include="voxel_system.cpp">
+      <Filter>Source Files\engine\voxel</Filter>
+    </ClCompile>
+    <ClCompile Include="voxel_world.cpp">
+      <Filter>Source Files\engine\voxel</Filter>
+    </ClCompile>
+    <ClCompile Include="example_object.cpp">
+      <Filter>Source Files\game</Filter>
+    </ClCompile>
+    <ClCompile Include="game_layer.cpp">
+      <Filter>Source Files\game</Filter>
+    </ClCompile>
+    <ClCompile Include="game_object.cpp">
+      <Filter>Source Files\game</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="viewer.cpp">
+      <Filter>Source Files\game</Filter>
+    </ClCompile>
+    <ClCompile Include="input_system.cpp">
+      <Filter>Source Files\engine\input</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="engine_core.h">
+      <Filter>Header Files\engine\core</Filter>
+    </ClInclude>
+    <ClInclude Include="camera.h">
+      <Filter>Header Files\engine\renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="mesh.h">
+      <Filter>Header Files\engine\renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="renderer.h">
+      <Filter>Header Files\engine\renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="shader.h">
+      <Filter>Header Files\engine\renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="voxel_chunk.h">
+      <Filter>Header Files\engine\voxel</Filter>
+    </ClInclude>
+    <ClInclude Include="voxel_system.h">
+      <Filter>Header Files\engine\voxel</Filter>
+    </ClInclude>
+    <ClInclude Include="voxel_world.h">
+      <Filter>Header Files\engine\voxel</Filter>
+    </ClInclude>
+    <ClInclude Include="input_system.h">
+      <Filter>Header Files\engine\input</Filter>
+    </ClInclude>
+    <ClInclude Include="example_object.h">
+      <Filter>Header Files\game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_layer.h">
+      <Filter>Header Files\game</Filter>
+    </ClInclude>
+    <ClInclude Include="game_object.h">
+      <Filter>Header Files\game</Filter>
+    </ClInclude>
+    <ClInclude Include="viewer.h">
+      <Filter>Header Files\game</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
